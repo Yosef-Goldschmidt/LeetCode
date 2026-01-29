@@ -1,0 +1,18 @@
+# IDEs
+.idea/
+.vscode/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Java
+*.class
+out/
+target/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
