@@ -1,6 +1,6 @@
 # ------- Pytest unit tests for LC 0217 - Contains Duplicate -------
 
-from solution import Solution
+from valid_anagram import Solution
 
 def test_is_anagram():
     s = Solution()

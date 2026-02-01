@@ -1,6 +1,6 @@
 # ------- Pytest unit tests for LC 0217 - Contains Duplicate -------
 
-from solution import Solution
+from contains_duplicate import Solution
 
 def test_contains_duplicate():
     s = Solution()

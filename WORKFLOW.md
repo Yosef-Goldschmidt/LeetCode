@@ -46,7 +46,7 @@ git checkout -b lc-XXXX
 Create the directory and necessary files:
 ```bash
 mkdir -p python/XXXX-problem-name
-# Create solution.py and test_solution.py
+# Create contains_duplicate.py and test_contains_duplicate.py
 ```
 
 ### 3. Run Tests
@@ -119,7 +119,7 @@ class Solution:
 
 ### `test_solution.py`
 ```python
-from solution import Solution
+from contains_duplicate import Solution
 
 def test_contains_duplicate():
     s = Solution()
