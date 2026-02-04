@@ -31,22 +31,22 @@ python/
 ### 0. Sync Main (Start here)
 Never start new work without this step.
 ```bash
-git checkout main
+git switch main
 git pull --rebase
 ```
 
 ### 1. Create a New Branch
 Never work directly on main.
 ```bash
-git checkout -b lc-XXXX
+git switch -c lc-XXXX
 ```
 *Verify with `git status` that you are on the new branch.*
 
 ### 2. Create Files and Solve
-Create the directory and necessary files:
+Create the directory and necessary files (make sure you are in the path where new.py is):
 ```bash
-mkdir -p python/XXXX-problem-name
-# Create contains_duplicate.py and test_contains_duplicate.py
+python new.py problem_number (ex. 226)
+# Create problem_name.py and test_problem_name.py
 ```
 
 ### 3. Run Tests
